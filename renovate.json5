@@ -175,6 +175,7 @@
     {
       groupName: "babel monorepo",
       sourceUrlPrefixes: ["https://github.com/babel/babel"],
+      updateTypes: ["minor", "patch"],
     },
     {
       groupName: "minor and patch for babel-preset-gatsby-package",
@@ -2038,8 +2039,18 @@
       commitMessageSuffix: "for gatsby-admin",
     },
     {
+      groupName: "babel monorepo",
+      sourceUrlPrefixes: ["https://github.com/babel/babel"],
+      updateTypes: ["minor", "patch"],
+    },
+    {
       groupName: "lodash monorepo",
       sourceUrlPrefixes: ["https://github.com/lodash"],
+      updateTypes: ["minor", "patch"],
+    },
+    {
+      groupName: "cross-env",
+      packageNames: ["cross-env"],
     },
   ],
   vulnerabilityAlerts: {
