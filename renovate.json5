@@ -173,11 +173,6 @@
       dependencyDashboardApproval: false,
     },
     {
-      groupName: "babel monorepo",
-      sourceUrlPrefixes: ["https://github.com/babel/babel"],
-      updateTypes: ["minor", "patch"],
-    },
-    {
       groupName: "minor and patch for babel-preset-gatsby-package",
       paths: ["packages/babel-preset-gatsby-package/package.json"],
       groupSlug: "babel-preset-gatsby-package",
@@ -2051,6 +2046,7 @@
     {
       groupName: "cross-env",
       packageNames: ["cross-env"],
+      updateTypes: "*",
     },
   ],
   vulnerabilityAlerts: {
