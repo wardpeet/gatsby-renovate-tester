@@ -177,924 +177,1309 @@
       paths: ["packages/babel-preset-gatsby-package/package.json"],
       groupSlug: "babel-preset-gatsby-package",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for babel-preset-gatsby-package",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for babel-preset-gatsby-package",
+      groupName: "marjo and patch for babel-preset-gatsby-package",
       paths: ["packages/babel-preset-gatsby-package/package.json"],
       groupSlug: "babel-preset-gatsby-package-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for babel-preset-gatsby-package",
     },
     {
       groupName: "minor and patch for gatsby-design-tokens",
       paths: ["packages/gatsby-design-tokens/package.json"],
       groupSlug: "gatsby-design-tokens",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-design-tokens",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-design-tokens",
+      groupName: "marjo and patch for gatsby-design-tokens",
       paths: ["packages/gatsby-design-tokens/package.json"],
       groupSlug: "gatsby-design-tokens-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-design-tokens",
     },
     {
       groupName: "minor and patch for gatsby-legacy-polyfills",
       paths: ["packages/gatsby-legacy-polyfills/package.json"],
       groupSlug: "gatsby-legacy-polyfills",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-legacy-polyfills",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-legacy-polyfills",
+      groupName: "marjo and patch for gatsby-legacy-polyfills",
       paths: ["packages/gatsby-legacy-polyfills/package.json"],
       groupSlug: "gatsby-legacy-polyfills-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-legacy-polyfills",
     },
     {
       groupName: "minor and patch for gatsby-plugin-no-sourcemaps",
       paths: ["packages/gatsby-plugin-no-sourcemaps/package.json"],
       groupSlug: "gatsby-plugin-no-sourcemaps",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-no-sourcemaps",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-no-sourcemaps",
+      groupName: "marjo and patch for gatsby-plugin-no-sourcemaps",
       paths: ["packages/gatsby-plugin-no-sourcemaps/package.json"],
       groupSlug: "gatsby-plugin-no-sourcemaps-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-no-sourcemaps",
     },
     {
       groupName: "minor and patch for gatsby-plugin-schema-snapshot",
       paths: ["packages/gatsby-plugin-schema-snapshot/package.json"],
       groupSlug: "gatsby-plugin-schema-snapshot",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-schema-snapshot",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-schema-snapshot",
+      groupName: "marjo and patch for gatsby-plugin-schema-snapshot",
       paths: ["packages/gatsby-plugin-schema-snapshot/package.json"],
       groupSlug: "gatsby-plugin-schema-snapshot-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-schema-snapshot",
     },
     {
       groupName: "minor and patch for gatsby-theme",
       paths: ["packages/gatsby-theme/package.json"],
       groupSlug: "gatsby-theme",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-theme",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-theme",
+      groupName: "marjo and patch for gatsby-theme",
       paths: ["packages/gatsby-theme/package.json"],
       groupSlug: "gatsby-theme-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-theme",
     },
     {
       groupName: "minor and patch for babel-plugin-remove-graphql-queries",
       paths: ["packages/babel-plugin-remove-graphql-queries/package.json"],
       groupSlug: "babel-plugin-remove-graphql-queries",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for babel-plugin-remove-graphql-queries",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for babel-plugin-remove-graphql-queries",
+      groupName: "marjo and patch for babel-plugin-remove-graphql-queries",
       paths: ["packages/babel-plugin-remove-graphql-queries/package.json"],
       groupSlug: "babel-plugin-remove-graphql-queries-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for babel-plugin-remove-graphql-queries",
     },
     {
       groupName: "minor and patch for gatsby-codemods",
       paths: ["packages/gatsby-codemods/package.json"],
       groupSlug: "gatsby-codemods",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-codemods",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-codemods",
+      groupName: "marjo and patch for gatsby-codemods",
       paths: ["packages/gatsby-codemods/package.json"],
       groupSlug: "gatsby-codemods-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-codemods",
     },
     {
       groupName: "minor and patch for gatsby-core-utils",
       paths: ["packages/gatsby-core-utils/package.json"],
       groupSlug: "gatsby-core-utils",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-core-utils",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-core-utils",
+      groupName: "marjo and patch for gatsby-core-utils",
       paths: ["packages/gatsby-core-utils/package.json"],
       groupSlug: "gatsby-core-utils-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-core-utils",
     },
     {
       groupName: "minor and patch for gatsby-cypress",
       paths: ["packages/gatsby-cypress/package.json"],
       groupSlug: "gatsby-cypress",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-cypress",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-cypress",
+      groupName: "marjo and patch for gatsby-cypress",
       paths: ["packages/gatsby-cypress/package.json"],
       groupSlug: "gatsby-cypress-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-cypress",
     },
     {
       groupName: "minor and patch for gatsby-dev-cli",
       paths: ["packages/gatsby-dev-cli/package.json"],
       groupSlug: "gatsby-dev-cli",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-dev-cli",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-dev-cli",
+      groupName: "marjo and patch for gatsby-dev-cli",
       paths: ["packages/gatsby-dev-cli/package.json"],
       groupSlug: "gatsby-dev-cli-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-dev-cli",
     },
     {
       groupName: "minor and patch for gatsby-graphiql-explorer",
       paths: ["packages/gatsby-graphiql-explorer/package.json"],
       groupSlug: "gatsby-graphiql-explorer",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-graphiql-explorer",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-graphiql-explorer",
+      groupName: "marjo and patch for gatsby-graphiql-explorer",
       paths: ["packages/gatsby-graphiql-explorer/package.json"],
       groupSlug: "gatsby-graphiql-explorer-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-graphiql-explorer",
     },
     {
       groupName: "minor and patch for gatsby-image",
       paths: ["packages/gatsby-image/package.json"],
       groupSlug: "gatsby-image",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-image",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-image",
+      groupName: "marjo and patch for gatsby-image",
       paths: ["packages/gatsby-image/package.json"],
       groupSlug: "gatsby-image-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-image",
     },
     {
       groupName: "minor and patch for gatsby-link",
       paths: ["packages/gatsby-link/package.json"],
       groupSlug: "gatsby-link",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-link",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-link",
+      groupName: "marjo and patch for gatsby-link",
       paths: ["packages/gatsby-link/package.json"],
       groupSlug: "gatsby-link-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-link",
     },
     {
       groupName: "minor and patch for gatsby-plugin-benchmark-reporting",
       paths: ["packages/gatsby-plugin-benchmark-reporting/package.json"],
       groupSlug: "gatsby-plugin-benchmark-reporting",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-benchmark-reporting",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-benchmark-reporting",
+      groupName: "marjo and patch for gatsby-plugin-benchmark-reporting",
       paths: ["packages/gatsby-plugin-benchmark-reporting/package.json"],
       groupSlug: "gatsby-plugin-benchmark-reporting-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-benchmark-reporting",
     },
     {
       groupName: "minor and patch for gatsby-plugin-canonical-urls",
       paths: ["packages/gatsby-plugin-canonical-urls/package.json"],
       groupSlug: "gatsby-plugin-canonical-urls",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-canonical-urls",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-canonical-urls",
+      groupName: "marjo and patch for gatsby-plugin-canonical-urls",
       paths: ["packages/gatsby-plugin-canonical-urls/package.json"],
       groupSlug: "gatsby-plugin-canonical-urls-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-canonical-urls",
     },
     {
       groupName: "minor and patch for gatsby-plugin-catch-links",
       paths: ["packages/gatsby-plugin-catch-links/package.json"],
       groupSlug: "gatsby-plugin-catch-links",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-catch-links",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-catch-links",
+      groupName: "marjo and patch for gatsby-plugin-catch-links",
       paths: ["packages/gatsby-plugin-catch-links/package.json"],
       groupSlug: "gatsby-plugin-catch-links-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-catch-links",
     },
     {
       groupName: "minor and patch for gatsby-plugin-coffeescript",
       paths: ["packages/gatsby-plugin-coffeescript/package.json"],
       groupSlug: "gatsby-plugin-coffeescript",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-coffeescript",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-coffeescript",
+      groupName: "marjo and patch for gatsby-plugin-coffeescript",
       paths: ["packages/gatsby-plugin-coffeescript/package.json"],
       groupSlug: "gatsby-plugin-coffeescript-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-coffeescript",
     },
     {
       groupName: "minor and patch for gatsby-plugin-create-client-paths",
       paths: ["packages/gatsby-plugin-create-client-paths/package.json"],
       groupSlug: "gatsby-plugin-create-client-paths",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-create-client-paths",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-create-client-paths",
+      groupName: "marjo and patch for gatsby-plugin-create-client-paths",
       paths: ["packages/gatsby-plugin-create-client-paths/package.json"],
       groupSlug: "gatsby-plugin-create-client-paths-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-create-client-paths",
     },
     {
       groupName: "minor and patch for gatsby-plugin-cxs",
       paths: ["packages/gatsby-plugin-cxs/package.json"],
       groupSlug: "gatsby-plugin-cxs",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-cxs",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-cxs",
+      groupName: "marjo and patch for gatsby-plugin-cxs",
       paths: ["packages/gatsby-plugin-cxs/package.json"],
       groupSlug: "gatsby-plugin-cxs-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-cxs",
     },
     {
       groupName: "minor and patch for gatsby-plugin-emotion",
       paths: ["packages/gatsby-plugin-emotion/package.json"],
       groupSlug: "gatsby-plugin-emotion",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-emotion",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-emotion",
+      groupName: "marjo and patch for gatsby-plugin-emotion",
       paths: ["packages/gatsby-plugin-emotion/package.json"],
       groupSlug: "gatsby-plugin-emotion-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-emotion",
     },
     {
       groupName: "minor and patch for gatsby-plugin-facebook-analytics",
       paths: ["packages/gatsby-plugin-facebook-analytics/package.json"],
       groupSlug: "gatsby-plugin-facebook-analytics",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-facebook-analytics",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-facebook-analytics",
+      groupName: "marjo and patch for gatsby-plugin-facebook-analytics",
       paths: ["packages/gatsby-plugin-facebook-analytics/package.json"],
       groupSlug: "gatsby-plugin-facebook-analytics-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-facebook-analytics",
     },
     {
       groupName: "minor and patch for gatsby-plugin-feed",
       paths: ["packages/gatsby-plugin-feed/package.json"],
       groupSlug: "gatsby-plugin-feed",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-feed",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-feed",
+      groupName: "marjo and patch for gatsby-plugin-feed",
       paths: ["packages/gatsby-plugin-feed/package.json"],
       groupSlug: "gatsby-plugin-feed-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-feed",
     },
     {
       groupName: "minor and patch for gatsby-plugin-flow",
       paths: ["packages/gatsby-plugin-flow/package.json"],
       groupSlug: "gatsby-plugin-flow",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-flow",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-flow",
+      groupName: "marjo and patch for gatsby-plugin-flow",
       paths: ["packages/gatsby-plugin-flow/package.json"],
       groupSlug: "gatsby-plugin-flow-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-flow",
     },
     {
       groupName: "minor and patch for gatsby-plugin-fullstory",
       paths: ["packages/gatsby-plugin-fullstory/package.json"],
       groupSlug: "gatsby-plugin-fullstory",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-fullstory",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-fullstory",
+      groupName: "marjo and patch for gatsby-plugin-fullstory",
       paths: ["packages/gatsby-plugin-fullstory/package.json"],
       groupSlug: "gatsby-plugin-fullstory-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-fullstory",
     },
     {
       groupName: "minor and patch for gatsby-plugin-glamor",
       paths: ["packages/gatsby-plugin-glamor/package.json"],
       groupSlug: "gatsby-plugin-glamor",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-glamor",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-glamor",
+      groupName: "marjo and patch for gatsby-plugin-glamor",
       paths: ["packages/gatsby-plugin-glamor/package.json"],
       groupSlug: "gatsby-plugin-glamor-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-glamor",
     },
     {
       groupName: "minor and patch for gatsby-plugin-google-analytics",
       paths: ["packages/gatsby-plugin-google-analytics/package.json"],
       groupSlug: "gatsby-plugin-google-analytics",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-google-analytics",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-google-analytics",
+      groupName: "marjo and patch for gatsby-plugin-google-analytics",
       paths: ["packages/gatsby-plugin-google-analytics/package.json"],
       groupSlug: "gatsby-plugin-google-analytics-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-google-analytics",
     },
     {
       groupName: "minor and patch for gatsby-plugin-google-gtag",
       paths: ["packages/gatsby-plugin-google-gtag/package.json"],
       groupSlug: "gatsby-plugin-google-gtag",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-google-gtag",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-google-gtag",
+      groupName: "marjo and patch for gatsby-plugin-google-gtag",
       paths: ["packages/gatsby-plugin-google-gtag/package.json"],
       groupSlug: "gatsby-plugin-google-gtag-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-google-gtag",
     },
     {
       groupName: "minor and patch for gatsby-plugin-google-tagmanager",
       paths: ["packages/gatsby-plugin-google-tagmanager/package.json"],
       groupSlug: "gatsby-plugin-google-tagmanager",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-google-tagmanager",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-google-tagmanager",
+      groupName: "marjo and patch for gatsby-plugin-google-tagmanager",
       paths: ["packages/gatsby-plugin-google-tagmanager/package.json"],
       groupSlug: "gatsby-plugin-google-tagmanager-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-google-tagmanager",
     },
     {
       groupName: "minor and patch for gatsby-plugin-graphql-config",
       paths: ["packages/gatsby-plugin-graphql-config/package.json"],
       groupSlug: "gatsby-plugin-graphql-config",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-graphql-config",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-graphql-config",
+      groupName: "marjo and patch for gatsby-plugin-graphql-config",
       paths: ["packages/gatsby-plugin-graphql-config/package.json"],
       groupSlug: "gatsby-plugin-graphql-config-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-graphql-config",
     },
     {
       groupName: "minor and patch for gatsby-plugin-guess-js",
       paths: ["packages/gatsby-plugin-guess-js/package.json"],
       groupSlug: "gatsby-plugin-guess-js",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-guess-js",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-guess-js",
+      groupName: "marjo and patch for gatsby-plugin-guess-js",
       paths: ["packages/gatsby-plugin-guess-js/package.json"],
       groupSlug: "gatsby-plugin-guess-js-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-guess-js",
     },
     {
       groupName: "minor and patch for gatsby-plugin-jss",
       paths: ["packages/gatsby-plugin-jss/package.json"],
       groupSlug: "gatsby-plugin-jss",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-jss",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-jss",
+      groupName: "marjo and patch for gatsby-plugin-jss",
       paths: ["packages/gatsby-plugin-jss/package.json"],
       groupSlug: "gatsby-plugin-jss-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-jss",
     },
     {
       groupName: "minor and patch for gatsby-plugin-layout",
       paths: ["packages/gatsby-plugin-layout/package.json"],
       groupSlug: "gatsby-plugin-layout",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-layout",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-layout",
+      groupName: "marjo and patch for gatsby-plugin-layout",
       paths: ["packages/gatsby-plugin-layout/package.json"],
       groupSlug: "gatsby-plugin-layout-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-layout",
     },
     {
       groupName: "minor and patch for gatsby-plugin-less",
       paths: ["packages/gatsby-plugin-less/package.json"],
       groupSlug: "gatsby-plugin-less",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-less",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-less",
+      groupName: "marjo and patch for gatsby-plugin-less",
       paths: ["packages/gatsby-plugin-less/package.json"],
       groupSlug: "gatsby-plugin-less-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-less",
     },
     {
       groupName: "minor and patch for gatsby-plugin-lodash",
       paths: ["packages/gatsby-plugin-lodash/package.json"],
       groupSlug: "gatsby-plugin-lodash",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-lodash",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-lodash",
+      groupName: "marjo and patch for gatsby-plugin-lodash",
       paths: ["packages/gatsby-plugin-lodash/package.json"],
       groupSlug: "gatsby-plugin-lodash-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-lodash",
     },
     {
       groupName: "minor and patch for gatsby-plugin-netlify-cms",
       paths: ["packages/gatsby-plugin-netlify-cms/package.json"],
       groupSlug: "gatsby-plugin-netlify-cms",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-netlify-cms",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-netlify-cms",
+      groupName: "marjo and patch for gatsby-plugin-netlify-cms",
       paths: ["packages/gatsby-plugin-netlify-cms/package.json"],
       groupSlug: "gatsby-plugin-netlify-cms-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-netlify-cms",
     },
     {
       groupName: "minor and patch for gatsby-plugin-netlify",
       paths: ["packages/gatsby-plugin-netlify/package.json"],
       groupSlug: "gatsby-plugin-netlify",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-netlify",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-netlify",
+      groupName: "marjo and patch for gatsby-plugin-netlify",
       paths: ["packages/gatsby-plugin-netlify/package.json"],
       groupSlug: "gatsby-plugin-netlify-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-netlify",
     },
     {
       groupName: "minor and patch for gatsby-plugin-nprogress",
       paths: ["packages/gatsby-plugin-nprogress/package.json"],
       groupSlug: "gatsby-plugin-nprogress",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-nprogress",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-nprogress",
+      groupName: "marjo and patch for gatsby-plugin-nprogress",
       paths: ["packages/gatsby-plugin-nprogress/package.json"],
       groupSlug: "gatsby-plugin-nprogress-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-nprogress",
     },
     {
       groupName: "minor and patch for gatsby-plugin-postcss",
       paths: ["packages/gatsby-plugin-postcss/package.json"],
       groupSlug: "gatsby-plugin-postcss",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-postcss",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-postcss",
+      groupName: "marjo and patch for gatsby-plugin-postcss",
       paths: ["packages/gatsby-plugin-postcss/package.json"],
       groupSlug: "gatsby-plugin-postcss-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-postcss",
     },
     {
       groupName: "minor and patch for gatsby-plugin-preact",
       paths: ["packages/gatsby-plugin-preact/package.json"],
       groupSlug: "gatsby-plugin-preact",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-preact",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-preact",
+      groupName: "marjo and patch for gatsby-plugin-preact",
       paths: ["packages/gatsby-plugin-preact/package.json"],
       groupSlug: "gatsby-plugin-preact-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-preact",
     },
     {
       groupName: "minor and patch for gatsby-plugin-react-css-modules",
       paths: ["packages/gatsby-plugin-react-css-modules/package.json"],
       groupSlug: "gatsby-plugin-react-css-modules",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-react-css-modules",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-react-css-modules",
+      groupName: "marjo and patch for gatsby-plugin-react-css-modules",
       paths: ["packages/gatsby-plugin-react-css-modules/package.json"],
       groupSlug: "gatsby-plugin-react-css-modules-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-react-css-modules",
     },
     {
       groupName: "minor and patch for gatsby-plugin-react-helmet",
       paths: ["packages/gatsby-plugin-react-helmet/package.json"],
       groupSlug: "gatsby-plugin-react-helmet",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-react-helmet",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-react-helmet",
+      groupName: "marjo and patch for gatsby-plugin-react-helmet",
       paths: ["packages/gatsby-plugin-react-helmet/package.json"],
       groupSlug: "gatsby-plugin-react-helmet-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-react-helmet",
     },
     {
       groupName: "minor and patch for gatsby-plugin-remove-trailing-slashes",
       paths: ["packages/gatsby-plugin-remove-trailing-slashes/package.json"],
       groupSlug: "gatsby-plugin-remove-trailing-slashes",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-remove-trailing-slashes",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-remove-trailing-slashes",
+      groupName: "marjo and patch for gatsby-plugin-remove-trailing-slashes",
       paths: ["packages/gatsby-plugin-remove-trailing-slashes/package.json"],
       groupSlug: "gatsby-plugin-remove-trailing-slashes-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-remove-trailing-slashes",
     },
     {
       groupName: "minor and patch for gatsby-plugin-sass",
       paths: ["packages/gatsby-plugin-sass/package.json"],
       groupSlug: "gatsby-plugin-sass",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-sass",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-sass",
+      groupName: "marjo and patch for gatsby-plugin-sass",
       paths: ["packages/gatsby-plugin-sass/package.json"],
       groupSlug: "gatsby-plugin-sass-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-sass",
     },
     {
       groupName: "minor and patch for gatsby-plugin-sitemap",
       paths: ["packages/gatsby-plugin-sitemap/package.json"],
       groupSlug: "gatsby-plugin-sitemap",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-sitemap",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-sitemap",
+      groupName: "marjo and patch for gatsby-plugin-sitemap",
       paths: ["packages/gatsby-plugin-sitemap/package.json"],
       groupSlug: "gatsby-plugin-sitemap-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-sitemap",
     },
     {
       groupName: "minor and patch for gatsby-plugin-styled-components",
       paths: ["packages/gatsby-plugin-styled-components/package.json"],
       groupSlug: "gatsby-plugin-styled-components",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-styled-components",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-styled-components",
+      groupName: "marjo and patch for gatsby-plugin-styled-components",
       paths: ["packages/gatsby-plugin-styled-components/package.json"],
       groupSlug: "gatsby-plugin-styled-components-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-styled-components",
     },
     {
       groupName: "minor and patch for gatsby-plugin-styled-jsx",
       paths: ["packages/gatsby-plugin-styled-jsx/package.json"],
       groupSlug: "gatsby-plugin-styled-jsx",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-styled-jsx",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-styled-jsx",
+      groupName: "marjo and patch for gatsby-plugin-styled-jsx",
       paths: ["packages/gatsby-plugin-styled-jsx/package.json"],
       groupSlug: "gatsby-plugin-styled-jsx-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-styled-jsx",
     },
     {
       groupName: "minor and patch for gatsby-plugin-styletron",
       paths: ["packages/gatsby-plugin-styletron/package.json"],
       groupSlug: "gatsby-plugin-styletron",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-styletron",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-styletron",
+      groupName: "marjo and patch for gatsby-plugin-styletron",
       paths: ["packages/gatsby-plugin-styletron/package.json"],
       groupSlug: "gatsby-plugin-styletron-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-styletron",
     },
     {
       groupName: "minor and patch for gatsby-plugin-stylus",
       paths: ["packages/gatsby-plugin-stylus/package.json"],
       groupSlug: "gatsby-plugin-stylus",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-stylus",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-stylus",
+      groupName: "marjo and patch for gatsby-plugin-stylus",
       paths: ["packages/gatsby-plugin-stylus/package.json"],
       groupSlug: "gatsby-plugin-stylus-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-stylus",
     },
     {
       groupName: "minor and patch for gatsby-plugin-subfont",
       paths: ["packages/gatsby-plugin-subfont/package.json"],
       groupSlug: "gatsby-plugin-subfont",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-subfont",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-subfont",
+      groupName: "marjo and patch for gatsby-plugin-subfont",
       paths: ["packages/gatsby-plugin-subfont/package.json"],
       groupSlug: "gatsby-plugin-subfont-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-subfont",
     },
     {
       groupName: "minor and patch for gatsby-plugin-twitter",
       paths: ["packages/gatsby-plugin-twitter/package.json"],
       groupSlug: "gatsby-plugin-twitter",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-twitter",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-twitter",
+      groupName: "marjo and patch for gatsby-plugin-twitter",
       paths: ["packages/gatsby-plugin-twitter/package.json"],
       groupSlug: "gatsby-plugin-twitter-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-twitter",
     },
     {
       groupName: "minor and patch for gatsby-plugin-typography",
       paths: ["packages/gatsby-plugin-typography/package.json"],
       groupSlug: "gatsby-plugin-typography",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-typography",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-typography",
+      groupName: "marjo and patch for gatsby-plugin-typography",
       paths: ["packages/gatsby-plugin-typography/package.json"],
       groupSlug: "gatsby-plugin-typography-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-typography",
     },
     {
       groupName: "minor and patch for gatsby-react-router-scroll",
       paths: ["packages/gatsby-react-router-scroll/package.json"],
       groupSlug: "gatsby-react-router-scroll",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-react-router-scroll",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-react-router-scroll",
+      groupName: "marjo and patch for gatsby-react-router-scroll",
       paths: ["packages/gatsby-react-router-scroll/package.json"],
       groupSlug: "gatsby-react-router-scroll-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-react-router-scroll",
     },
     {
       groupName: "minor and patch for gatsby-remark-autolink-headers",
       paths: ["packages/gatsby-remark-autolink-headers/package.json"],
       groupSlug: "gatsby-remark-autolink-headers",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-remark-autolink-headers",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-remark-autolink-headers",
+      groupName: "marjo and patch for gatsby-remark-autolink-headers",
       paths: ["packages/gatsby-remark-autolink-headers/package.json"],
       groupSlug: "gatsby-remark-autolink-headers-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-remark-autolink-headers",
     },
     {
       groupName: "minor and patch for gatsby-remark-code-repls",
       paths: ["packages/gatsby-remark-code-repls/package.json"],
       groupSlug: "gatsby-remark-code-repls",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-remark-code-repls",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-remark-code-repls",
+      groupName: "marjo and patch for gatsby-remark-code-repls",
       paths: ["packages/gatsby-remark-code-repls/package.json"],
       groupSlug: "gatsby-remark-code-repls-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-remark-code-repls",
     },
     {
       groupName: "minor and patch for gatsby-remark-copy-linked-files",
       paths: ["packages/gatsby-remark-copy-linked-files/package.json"],
       groupSlug: "gatsby-remark-copy-linked-files",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-remark-copy-linked-files",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-remark-copy-linked-files",
+      groupName: "marjo and patch for gatsby-remark-copy-linked-files",
       paths: ["packages/gatsby-remark-copy-linked-files/package.json"],
       groupSlug: "gatsby-remark-copy-linked-files-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-remark-copy-linked-files",
     },
     {
       groupName: "minor and patch for gatsby-remark-custom-blocks",
       paths: ["packages/gatsby-remark-custom-blocks/package.json"],
       groupSlug: "gatsby-remark-custom-blocks",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-remark-custom-blocks",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-remark-custom-blocks",
+      groupName: "marjo and patch for gatsby-remark-custom-blocks",
       paths: ["packages/gatsby-remark-custom-blocks/package.json"],
       groupSlug: "gatsby-remark-custom-blocks-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-remark-custom-blocks",
     },
     {
       groupName: "minor and patch for gatsby-remark-embed-snippet",
       paths: ["packages/gatsby-remark-embed-snippet/package.json"],
       groupSlug: "gatsby-remark-embed-snippet",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-remark-embed-snippet",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-remark-embed-snippet",
+      groupName: "marjo and patch for gatsby-remark-embed-snippet",
       paths: ["packages/gatsby-remark-embed-snippet/package.json"],
       groupSlug: "gatsby-remark-embed-snippet-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-remark-embed-snippet",
     },
     {
       groupName: "minor and patch for gatsby-remark-graphviz",
       paths: ["packages/gatsby-remark-graphviz/package.json"],
       groupSlug: "gatsby-remark-graphviz",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-remark-graphviz",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-remark-graphviz",
+      groupName: "marjo and patch for gatsby-remark-graphviz",
       paths: ["packages/gatsby-remark-graphviz/package.json"],
       groupSlug: "gatsby-remark-graphviz-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-remark-graphviz",
     },
     {
       groupName: "minor and patch for gatsby-remark-images-contentful",
       paths: ["packages/gatsby-remark-images-contentful/package.json"],
       groupSlug: "gatsby-remark-images-contentful",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-remark-images-contentful",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-remark-images-contentful",
+      groupName: "marjo and patch for gatsby-remark-images-contentful",
       paths: ["packages/gatsby-remark-images-contentful/package.json"],
       groupSlug: "gatsby-remark-images-contentful-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-remark-images-contentful",
     },
     {
       groupName: "minor and patch for gatsby-remark-katex",
       paths: ["packages/gatsby-remark-katex/package.json"],
       groupSlug: "gatsby-remark-katex",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-remark-katex",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-remark-katex",
+      groupName: "marjo and patch for gatsby-remark-katex",
       paths: ["packages/gatsby-remark-katex/package.json"],
       groupSlug: "gatsby-remark-katex-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-remark-katex",
     },
     {
       groupName: "minor and patch for gatsby-remark-prismjs",
       paths: ["packages/gatsby-remark-prismjs/package.json"],
       groupSlug: "gatsby-remark-prismjs",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-remark-prismjs",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-remark-prismjs",
+      groupName: "marjo and patch for gatsby-remark-prismjs",
       paths: ["packages/gatsby-remark-prismjs/package.json"],
       groupSlug: "gatsby-remark-prismjs-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-remark-prismjs",
     },
     {
       groupName: "minor and patch for gatsby-remark-responsive-iframe",
       paths: ["packages/gatsby-remark-responsive-iframe/package.json"],
       groupSlug: "gatsby-remark-responsive-iframe",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-remark-responsive-iframe",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-remark-responsive-iframe",
+      groupName: "marjo and patch for gatsby-remark-responsive-iframe",
       paths: ["packages/gatsby-remark-responsive-iframe/package.json"],
       groupSlug: "gatsby-remark-responsive-iframe-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-remark-responsive-iframe",
     },
     {
       groupName: "minor and patch for gatsby-remark-smartypants",
       paths: ["packages/gatsby-remark-smartypants/package.json"],
       groupSlug: "gatsby-remark-smartypants",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-remark-smartypants",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-remark-smartypants",
+      groupName: "marjo and patch for gatsby-remark-smartypants",
       paths: ["packages/gatsby-remark-smartypants/package.json"],
       groupSlug: "gatsby-remark-smartypants-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-remark-smartypants",
     },
     {
       groupName: "minor and patch for gatsby-source-faker",
       paths: ["packages/gatsby-source-faker/package.json"],
       groupSlug: "gatsby-source-faker",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-source-faker",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-source-faker",
+      groupName: "marjo and patch for gatsby-source-faker",
       paths: ["packages/gatsby-source-faker/package.json"],
       groupSlug: "gatsby-source-faker-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-source-faker",
     },
     {
       groupName: "minor and patch for gatsby-source-graphql",
       paths: ["packages/gatsby-source-graphql/package.json"],
       groupSlug: "gatsby-source-graphql",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-source-graphql",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-source-graphql",
+      groupName: "marjo and patch for gatsby-source-graphql",
       paths: ["packages/gatsby-source-graphql/package.json"],
       groupSlug: "gatsby-source-graphql-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-source-graphql",
     },
     {
       groupName: "minor and patch for gatsby-source-hacker-news",
       paths: ["packages/gatsby-source-hacker-news/package.json"],
       groupSlug: "gatsby-source-hacker-news",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-source-hacker-news",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-source-hacker-news",
+      groupName: "marjo and patch for gatsby-source-hacker-news",
       paths: ["packages/gatsby-source-hacker-news/package.json"],
       groupSlug: "gatsby-source-hacker-news-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-source-hacker-news",
     },
     {
       groupName: "minor and patch for gatsby-source-lever",
       paths: ["packages/gatsby-source-lever/package.json"],
       groupSlug: "gatsby-source-lever",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-source-lever",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-source-lever",
+      groupName: "marjo and patch for gatsby-source-lever",
       paths: ["packages/gatsby-source-lever/package.json"],
       groupSlug: "gatsby-source-lever-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-source-lever",
     },
     {
       groupName: "minor and patch for gatsby-source-medium",
       paths: ["packages/gatsby-source-medium/package.json"],
       groupSlug: "gatsby-source-medium",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-source-medium",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-source-medium",
+      groupName: "marjo and patch for gatsby-source-medium",
       paths: ["packages/gatsby-source-medium/package.json"],
       groupSlug: "gatsby-source-medium-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-source-medium",
     },
     {
       groupName: "minor and patch for gatsby-source-mongodb",
       paths: ["packages/gatsby-source-mongodb/package.json"],
       groupSlug: "gatsby-source-mongodb",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-source-mongodb",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-source-mongodb",
+      groupName: "marjo and patch for gatsby-source-mongodb",
       paths: ["packages/gatsby-source-mongodb/package.json"],
       groupSlug: "gatsby-source-mongodb-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-source-mongodb",
     },
     {
       groupName: "minor and patch for gatsby-source-npm-package-search",
       paths: ["packages/gatsby-source-npm-package-search/package.json"],
       groupSlug: "gatsby-source-npm-package-search",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-source-npm-package-search",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-source-npm-package-search",
+      groupName: "marjo and patch for gatsby-source-npm-package-search",
       paths: ["packages/gatsby-source-npm-package-search/package.json"],
       groupSlug: "gatsby-source-npm-package-search-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-source-npm-package-search",
     },
     {
       groupName: "minor and patch for gatsby-source-wikipedia",
       paths: ["packages/gatsby-source-wikipedia/package.json"],
       groupSlug: "gatsby-source-wikipedia",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-source-wikipedia",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-source-wikipedia",
+      groupName: "marjo and patch for gatsby-source-wikipedia",
       paths: ["packages/gatsby-source-wikipedia/package.json"],
       groupSlug: "gatsby-source-wikipedia-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-source-wikipedia",
     },
     {
       groupName: "minor and patch for gatsby-transformer-asciidoc",
       paths: ["packages/gatsby-transformer-asciidoc/package.json"],
       groupSlug: "gatsby-transformer-asciidoc",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-asciidoc",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-asciidoc",
+      groupName: "marjo and patch for gatsby-transformer-asciidoc",
       paths: ["packages/gatsby-transformer-asciidoc/package.json"],
       groupSlug: "gatsby-transformer-asciidoc-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-asciidoc",
     },
     {
       groupName: "minor and patch for gatsby-transformer-csv",
       paths: ["packages/gatsby-transformer-csv/package.json"],
       groupSlug: "gatsby-transformer-csv",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-csv",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-csv",
+      groupName: "marjo and patch for gatsby-transformer-csv",
       paths: ["packages/gatsby-transformer-csv/package.json"],
       groupSlug: "gatsby-transformer-csv-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-csv",
     },
     {
       groupName: "minor and patch for gatsby-transformer-documentationjs",
       paths: ["packages/gatsby-transformer-documentationjs/package.json"],
       groupSlug: "gatsby-transformer-documentationjs",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-documentationjs",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-documentationjs",
+      groupName: "marjo and patch for gatsby-transformer-documentationjs",
       paths: ["packages/gatsby-transformer-documentationjs/package.json"],
       groupSlug: "gatsby-transformer-documentationjs-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-documentationjs",
     },
     {
       groupName: "minor and patch for gatsby-transformer-excel",
       paths: ["packages/gatsby-transformer-excel/package.json"],
       groupSlug: "gatsby-transformer-excel",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-excel",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-excel",
+      groupName: "marjo and patch for gatsby-transformer-excel",
       paths: ["packages/gatsby-transformer-excel/package.json"],
       groupSlug: "gatsby-transformer-excel-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-excel",
     },
     {
       groupName: "minor and patch for gatsby-transformer-hjson",
       paths: ["packages/gatsby-transformer-hjson/package.json"],
       groupSlug: "gatsby-transformer-hjson",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-hjson",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-hjson",
+      groupName: "marjo and patch for gatsby-transformer-hjson",
       paths: ["packages/gatsby-transformer-hjson/package.json"],
       groupSlug: "gatsby-transformer-hjson-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-hjson",
     },
     {
       groupName: "minor and patch for gatsby-transformer-javascript-frontmatter",
@@ -1103,14 +1488,19 @@
       ],
       groupSlug: "gatsby-transformer-javascript-frontmatter",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-javascript-frontmatter",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-javascript-frontmatter",
+      groupName: "marjo and patch for gatsby-transformer-javascript-frontmatter",
       paths: [
         "packages/gatsby-transformer-javascript-frontmatter/package.json",
       ],
       groupSlug: "gatsby-transformer-javascript-frontmatter-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-javascript-frontmatter",
     },
     {
       groupName: "minor and patch for gatsby-transformer-javascript-static-exports",
@@ -1119,374 +1509,529 @@
       ],
       groupSlug: "gatsby-transformer-javascript-static-exports",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-javascript-static-exports",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-javascript-static-exports",
+      groupName: "marjo and patch for gatsby-transformer-javascript-static-exports",
       paths: [
         "packages/gatsby-transformer-javascript-static-exports/package.json",
       ],
       groupSlug: "gatsby-transformer-javascript-static-exports-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-javascript-static-exports",
     },
     {
       groupName: "minor and patch for gatsby-transformer-json",
       paths: ["packages/gatsby-transformer-json/package.json"],
       groupSlug: "gatsby-transformer-json",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-json",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-json",
+      groupName: "marjo and patch for gatsby-transformer-json",
       paths: ["packages/gatsby-transformer-json/package.json"],
       groupSlug: "gatsby-transformer-json-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-json",
     },
     {
       groupName: "minor and patch for gatsby-transformer-pdf",
       paths: ["packages/gatsby-transformer-pdf/package.json"],
       groupSlug: "gatsby-transformer-pdf",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-pdf",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-pdf",
+      groupName: "marjo and patch for gatsby-transformer-pdf",
       paths: ["packages/gatsby-transformer-pdf/package.json"],
       groupSlug: "gatsby-transformer-pdf-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-pdf",
     },
     {
       groupName: "minor and patch for gatsby-transformer-react-docgen",
       paths: ["packages/gatsby-transformer-react-docgen/package.json"],
       groupSlug: "gatsby-transformer-react-docgen",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-react-docgen",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-react-docgen",
+      groupName: "marjo and patch for gatsby-transformer-react-docgen",
       paths: ["packages/gatsby-transformer-react-docgen/package.json"],
       groupSlug: "gatsby-transformer-react-docgen-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-react-docgen",
     },
     {
       groupName: "minor and patch for gatsby-transformer-screenshot",
       paths: ["packages/gatsby-transformer-screenshot/package.json"],
       groupSlug: "gatsby-transformer-screenshot",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-screenshot",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-screenshot",
+      groupName: "marjo and patch for gatsby-transformer-screenshot",
       paths: ["packages/gatsby-transformer-screenshot/package.json"],
       groupSlug: "gatsby-transformer-screenshot-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-screenshot",
     },
     {
       groupName: "minor and patch for gatsby-transformer-sharp",
       paths: ["packages/gatsby-transformer-sharp/package.json"],
       groupSlug: "gatsby-transformer-sharp",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-sharp",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-sharp",
+      groupName: "marjo and patch for gatsby-transformer-sharp",
       paths: ["packages/gatsby-transformer-sharp/package.json"],
       groupSlug: "gatsby-transformer-sharp-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-sharp",
     },
     {
       groupName: "minor and patch for gatsby-transformer-toml",
       paths: ["packages/gatsby-transformer-toml/package.json"],
       groupSlug: "gatsby-transformer-toml",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-toml",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-toml",
+      groupName: "marjo and patch for gatsby-transformer-toml",
       paths: ["packages/gatsby-transformer-toml/package.json"],
       groupSlug: "gatsby-transformer-toml-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-toml",
     },
     {
       groupName: "minor and patch for gatsby-transformer-xml",
       paths: ["packages/gatsby-transformer-xml/package.json"],
       groupSlug: "gatsby-transformer-xml",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-xml",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-xml",
+      groupName: "marjo and patch for gatsby-transformer-xml",
       paths: ["packages/gatsby-transformer-xml/package.json"],
       groupSlug: "gatsby-transformer-xml-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-xml",
     },
     {
       groupName: "minor and patch for gatsby-transformer-yaml",
       paths: ["packages/gatsby-transformer-yaml/package.json"],
       groupSlug: "gatsby-transformer-yaml",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-yaml",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-yaml",
+      groupName: "marjo and patch for gatsby-transformer-yaml",
       paths: ["packages/gatsby-transformer-yaml/package.json"],
       groupSlug: "gatsby-transformer-yaml-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-yaml",
     },
     {
       groupName: "minor and patch for babel-preset-gatsby",
       paths: ["packages/babel-preset-gatsby/package.json"],
       groupSlug: "babel-preset-gatsby",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for babel-preset-gatsby",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for babel-preset-gatsby",
+      groupName: "marjo and patch for babel-preset-gatsby",
       paths: ["packages/babel-preset-gatsby/package.json"],
       groupSlug: "babel-preset-gatsby-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for babel-preset-gatsby",
     },
     {
       groupName: "minor and patch for gatsby-page-utils",
       paths: ["packages/gatsby-page-utils/package.json"],
       groupSlug: "gatsby-page-utils",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-page-utils",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-page-utils",
+      groupName: "marjo and patch for gatsby-page-utils",
       paths: ["packages/gatsby-page-utils/package.json"],
       groupSlug: "gatsby-page-utils-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-page-utils",
     },
     {
       groupName: "minor and patch for gatsby-plugin-manifest",
       paths: ["packages/gatsby-plugin-manifest/package.json"],
       groupSlug: "gatsby-plugin-manifest",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-manifest",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-manifest",
+      groupName: "marjo and patch for gatsby-plugin-manifest",
       paths: ["packages/gatsby-plugin-manifest/package.json"],
       groupSlug: "gatsby-plugin-manifest-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-manifest",
     },
     {
       groupName: "minor and patch for gatsby-plugin-mdx",
       paths: ["packages/gatsby-plugin-mdx/package.json"],
       groupSlug: "gatsby-plugin-mdx",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-mdx",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-mdx",
+      groupName: "marjo and patch for gatsby-plugin-mdx",
       paths: ["packages/gatsby-plugin-mdx/package.json"],
       groupSlug: "gatsby-plugin-mdx-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-mdx",
     },
     {
       groupName: "minor and patch for gatsby-plugin-offline",
       paths: ["packages/gatsby-plugin-offline/package.json"],
       groupSlug: "gatsby-plugin-offline",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-offline",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-offline",
+      groupName: "marjo and patch for gatsby-plugin-offline",
       paths: ["packages/gatsby-plugin-offline/package.json"],
       groupSlug: "gatsby-plugin-offline-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-offline",
     },
     {
       groupName: "minor and patch for gatsby-plugin-preload-fonts",
       paths: ["packages/gatsby-plugin-preload-fonts/package.json"],
       groupSlug: "gatsby-plugin-preload-fonts",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-preload-fonts",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-preload-fonts",
+      groupName: "marjo and patch for gatsby-plugin-preload-fonts",
       paths: ["packages/gatsby-plugin-preload-fonts/package.json"],
       groupSlug: "gatsby-plugin-preload-fonts-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-preload-fonts",
     },
     {
       groupName: "minor and patch for gatsby-plugin-sharp",
       paths: ["packages/gatsby-plugin-sharp/package.json"],
       groupSlug: "gatsby-plugin-sharp",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-sharp",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-sharp",
+      groupName: "marjo and patch for gatsby-plugin-sharp",
       paths: ["packages/gatsby-plugin-sharp/package.json"],
       groupSlug: "gatsby-plugin-sharp-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-sharp",
     },
     {
       groupName: "minor and patch for gatsby-plugin-typescript",
       paths: ["packages/gatsby-plugin-typescript/package.json"],
       groupSlug: "gatsby-plugin-typescript",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-typescript",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-typescript",
+      groupName: "marjo and patch for gatsby-plugin-typescript",
       paths: ["packages/gatsby-plugin-typescript/package.json"],
       groupSlug: "gatsby-plugin-typescript-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-typescript",
     },
     {
       groupName: "minor and patch for gatsby-remark-images",
       paths: ["packages/gatsby-remark-images/package.json"],
       groupSlug: "gatsby-remark-images",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-remark-images",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-remark-images",
+      groupName: "marjo and patch for gatsby-remark-images",
       paths: ["packages/gatsby-remark-images/package.json"],
       groupSlug: "gatsby-remark-images-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-remark-images",
     },
     {
       groupName: "minor and patch for gatsby-source-filesystem",
       paths: ["packages/gatsby-source-filesystem/package.json"],
       groupSlug: "gatsby-source-filesystem",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-source-filesystem",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-source-filesystem",
+      groupName: "marjo and patch for gatsby-source-filesystem",
       paths: ["packages/gatsby-source-filesystem/package.json"],
       groupSlug: "gatsby-source-filesystem-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-source-filesystem",
     },
     {
       groupName: "minor and patch for gatsby-telemetry",
       paths: ["packages/gatsby-telemetry/package.json"],
       groupSlug: "gatsby-telemetry",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-telemetry",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-telemetry",
+      groupName: "marjo and patch for gatsby-telemetry",
       paths: ["packages/gatsby-telemetry/package.json"],
       groupSlug: "gatsby-telemetry-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-telemetry",
     },
     {
       groupName: "minor and patch for gatsby-transformer-remark",
       paths: ["packages/gatsby-transformer-remark/package.json"],
       groupSlug: "gatsby-transformer-remark",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-remark",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-remark",
+      groupName: "marjo and patch for gatsby-transformer-remark",
       paths: ["packages/gatsby-transformer-remark/package.json"],
       groupSlug: "gatsby-transformer-remark-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-remark",
     },
     {
       groupName: "minor and patch for gatsby-plugin-page-creator",
       paths: ["packages/gatsby-plugin-page-creator/package.json"],
       groupSlug: "gatsby-plugin-page-creator",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-plugin-page-creator",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-plugin-page-creator",
+      groupName: "marjo and patch for gatsby-plugin-page-creator",
       paths: ["packages/gatsby-plugin-page-creator/package.json"],
       groupSlug: "gatsby-plugin-page-creator-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-plugin-page-creator",
     },
     {
       groupName: "minor and patch for gatsby-recipes",
       paths: ["packages/gatsby-recipes/package.json"],
       groupSlug: "gatsby-recipes",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-recipes",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-recipes",
+      groupName: "marjo and patch for gatsby-recipes",
       paths: ["packages/gatsby-recipes/package.json"],
       groupSlug: "gatsby-recipes-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-recipes",
     },
     {
       groupName: "minor and patch for gatsby-source-contentful",
       paths: ["packages/gatsby-source-contentful/package.json"],
       groupSlug: "gatsby-source-contentful",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-source-contentful",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-source-contentful",
+      groupName: "marjo and patch for gatsby-source-contentful",
       paths: ["packages/gatsby-source-contentful/package.json"],
       groupSlug: "gatsby-source-contentful-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-source-contentful",
     },
     {
       groupName: "minor and patch for gatsby-source-drupal",
       paths: ["packages/gatsby-source-drupal/package.json"],
       groupSlug: "gatsby-source-drupal",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-source-drupal",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-source-drupal",
+      groupName: "marjo and patch for gatsby-source-drupal",
       paths: ["packages/gatsby-source-drupal/package.json"],
       groupSlug: "gatsby-source-drupal-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-source-drupal",
     },
     {
       groupName: "minor and patch for gatsby-source-shopify",
       paths: ["packages/gatsby-source-shopify/package.json"],
       groupSlug: "gatsby-source-shopify",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-source-shopify",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-source-shopify",
+      groupName: "marjo and patch for gatsby-source-shopify",
       paths: ["packages/gatsby-source-shopify/package.json"],
       groupSlug: "gatsby-source-shopify-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-source-shopify",
     },
     {
       groupName: "minor and patch for gatsby-source-wordpress",
       paths: ["packages/gatsby-source-wordpress/package.json"],
       groupSlug: "gatsby-source-wordpress",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-source-wordpress",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-source-wordpress",
+      groupName: "marjo and patch for gatsby-source-wordpress",
       paths: ["packages/gatsby-source-wordpress/package.json"],
       groupSlug: "gatsby-source-wordpress-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-source-wordpress",
     },
     {
       groupName: "minor and patch for gatsby-transformer-sqip",
       paths: ["packages/gatsby-transformer-sqip/package.json"],
       groupSlug: "gatsby-transformer-sqip",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-transformer-sqip",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-transformer-sqip",
+      groupName: "marjo and patch for gatsby-transformer-sqip",
       paths: ["packages/gatsby-transformer-sqip/package.json"],
       groupSlug: "gatsby-transformer-sqip-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-transformer-sqip",
     },
     {
       groupName: "minor and patch for gatsby-cli",
       paths: ["packages/gatsby-cli/package.json"],
       groupSlug: "gatsby-cli",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-cli",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-cli",
+      groupName: "marjo and patch for gatsby-cli",
       paths: ["packages/gatsby-cli/package.json"],
       groupSlug: "gatsby-cli-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-cli",
     },
     {
       groupName: "minor and patch for gatsby",
       paths: ["packages/gatsby/package.json"],
       groupSlug: "gatsby",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby",
+      groupName: "marjo and patch for gatsby",
       paths: ["packages/gatsby/package.json"],
       groupSlug: "gatsby-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby",
     },
     {
       groupName: "minor and patch for gatsby-admin",
       paths: ["packages/gatsby-admin/package.json"],
       groupSlug: "gatsby-admin",
       updateTypes: ["minor", "patch"],
+      // force pr title to be the plugin name
+      commitMessageTopic: "minor and patch for gatsby-admin",
+      commitMessageExtra: "",
     },
     {
-      groupName: "major for gatsby-admin",
+      groupName: "marjo and patch for gatsby-admin",
       paths: ["packages/gatsby-admin/package.json"],
       groupSlug: "gatsby-admin-major",
       updateTypes: ["major"],
+      // force pr title to be the plugin name
+      commitMessageSuffix: "for gatsby-admin",
     },
     {
       groupName: "babel monorepo",
