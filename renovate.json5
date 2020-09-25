@@ -21,7 +21,6 @@
   ignoreDeps: ["react", "react-dom"],
   rangeStrategy: "bump",
   bumpVersion: null,
-  semanticCommitScope: null,
   prHourlyLimit: 0,
   // Wait for 2 days to update a package so we can check if it's stable
   stabilityDays: 2,
