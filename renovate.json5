@@ -2035,16 +2035,19 @@
     },
     {
       groupName: "babel monorepo",
+      paths: ["package.json", "packages/**"],
       sourceUrlPrefixes: ["https://github.com/babel/babel"],
       updateTypes: ["minor", "patch"],
     },
     {
       groupName: "lodash monorepo",
+      paths: ["package.json", "packages/**"],
       sourceUrlPrefixes: ["https://github.com/lodash"],
       updateTypes: ["minor", "patch"],
     },
     {
       groupName: "cross-env",
+      paths: ["package.json", "packages/**"],
       packageNames: ["cross-env"],
       updateTypes: "*",
     },
