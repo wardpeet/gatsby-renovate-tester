@@ -176,6 +176,7 @@
       groupName: "cross-env",
       paths: ["package.json", "packages/**"],
       packageNames: ["cross-env"],
+      dependencyDashboardApproval: false,
     },
     {
       groupName: "minor and patch for babel-preset-gatsby-package",
