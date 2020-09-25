@@ -173,6 +173,11 @@
       dependencyDashboardApproval: false,
     },
     {
+      groupName: "cross-env",
+      paths: ["package.json", "packages/**"],
+      packageNames: ["cross-env"],
+    },
+    {
       groupName: "minor and patch for babel-preset-gatsby-package",
       paths: ["packages/babel-preset-gatsby-package/package.json"],
       groupSlug: "babel-preset-gatsby-package",
@@ -2037,19 +2042,11 @@
       groupName: "babel monorepo",
       paths: ["package.json", "packages/**"],
       sourceUrlPrefixes: ["https://github.com/babel/babel"],
-      updateTypes: ["minor", "patch"],
     },
     {
       groupName: "lodash monorepo",
       paths: ["package.json", "packages/**"],
       sourceUrlPrefixes: ["https://github.com/lodash"],
-      updateTypes: ["minor", "patch"],
-    },
-    {
-      groupName: "cross-env",
-      paths: ["package.json", "packages/**"],
-      packageNames: ["cross-env"],
-      updateTypes: "*",
     },
   ],
   vulnerabilityAlerts: {
