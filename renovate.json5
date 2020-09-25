@@ -28,11 +28,6 @@
   postUpdateOptions: ["yarnDedupeHighest"],
   timezone: "GMT",
   packageRules: [
-    //{
-    //  groupName: "dev dependencies",
-    //  depTypeList: ["devDependencies"],
-    //},
-    // these rules define dependencies that we have special handling for
     {
       packageNames: ["gatsby-interface"],
       sourceUrlPrefixes: ["https://github.com/gatsbyjs/gatsby"],
@@ -173,12 +168,6 @@
       dependencyDashboardApproval: false,
     },
     {
-      groupName: "cross-env",
-      paths: ["package.json", "packages/**"],
-      packageNames: ["cross-env"],
-      dependencyDashboardApproval: false,
-    },
-    {
       groupName: "minor and patch for babel-preset-gatsby-package",
       paths: ["packages/babel-preset-gatsby-package/package.json"],
       groupSlug: "babel-preset-gatsby-package",
@@ -186,6 +175,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for babel-preset-gatsby-package",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for babel-preset-gatsby-package",
@@ -194,6 +185,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for babel-preset-gatsby-package",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-design-tokens",
@@ -203,6 +195,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-design-tokens",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-design-tokens",
@@ -211,6 +205,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-design-tokens",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-legacy-polyfills",
@@ -220,6 +215,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-legacy-polyfills",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-legacy-polyfills",
@@ -228,6 +225,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-legacy-polyfills",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-no-sourcemaps",
@@ -237,6 +235,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-no-sourcemaps",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-no-sourcemaps",
@@ -245,6 +245,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-no-sourcemaps",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-schema-snapshot",
@@ -254,6 +255,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-schema-snapshot",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-schema-snapshot",
@@ -262,6 +265,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-schema-snapshot",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-theme",
@@ -271,6 +275,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-theme",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-theme",
@@ -279,6 +285,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-theme",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for babel-plugin-remove-graphql-queries",
@@ -288,6 +295,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for babel-plugin-remove-graphql-queries",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for babel-plugin-remove-graphql-queries",
@@ -296,6 +305,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for babel-plugin-remove-graphql-queries",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-codemods",
@@ -305,6 +315,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-codemods",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-codemods",
@@ -313,6 +325,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-codemods",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-core-utils",
@@ -322,6 +335,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-core-utils",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-core-utils",
@@ -330,6 +345,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-core-utils",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-cypress",
@@ -339,6 +355,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-cypress",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-cypress",
@@ -347,6 +365,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-cypress",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-dev-cli",
@@ -356,6 +375,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-dev-cli",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-dev-cli",
@@ -364,6 +385,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-dev-cli",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-graphiql-explorer",
@@ -373,6 +395,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-graphiql-explorer",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-graphiql-explorer",
@@ -381,6 +405,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-graphiql-explorer",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-image",
@@ -390,6 +415,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-image",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-image",
@@ -398,6 +425,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-image",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-link",
@@ -407,6 +435,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-link",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-link",
@@ -415,6 +445,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-link",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-benchmark-reporting",
@@ -424,6 +455,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-benchmark-reporting",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-benchmark-reporting",
@@ -432,6 +465,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-benchmark-reporting",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-canonical-urls",
@@ -441,6 +475,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-canonical-urls",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-canonical-urls",
@@ -449,6 +485,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-canonical-urls",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-catch-links",
@@ -458,6 +495,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-catch-links",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-catch-links",
@@ -466,6 +505,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-catch-links",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-coffeescript",
@@ -475,6 +515,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-coffeescript",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-coffeescript",
@@ -483,6 +525,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-coffeescript",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-create-client-paths",
@@ -492,6 +535,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-create-client-paths",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-create-client-paths",
@@ -500,6 +545,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-create-client-paths",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-cxs",
@@ -509,6 +555,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-cxs",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-cxs",
@@ -517,6 +565,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-cxs",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-emotion",
@@ -526,6 +575,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-emotion",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-emotion",
@@ -534,6 +585,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-emotion",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-facebook-analytics",
@@ -543,6 +595,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-facebook-analytics",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-facebook-analytics",
@@ -551,6 +605,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-facebook-analytics",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-feed",
@@ -560,6 +615,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-feed",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-feed",
@@ -568,6 +625,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-feed",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-flow",
@@ -577,6 +635,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-flow",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-flow",
@@ -585,6 +645,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-flow",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-fullstory",
@@ -594,6 +655,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-fullstory",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-fullstory",
@@ -602,6 +665,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-fullstory",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-glamor",
@@ -611,6 +675,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-glamor",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-glamor",
@@ -619,6 +685,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-glamor",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-google-analytics",
@@ -628,6 +695,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-google-analytics",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-google-analytics",
@@ -636,6 +705,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-google-analytics",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-google-gtag",
@@ -645,6 +715,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-google-gtag",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-google-gtag",
@@ -653,6 +725,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-google-gtag",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-google-tagmanager",
@@ -662,6 +735,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-google-tagmanager",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-google-tagmanager",
@@ -670,6 +745,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-google-tagmanager",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-graphql-config",
@@ -679,6 +755,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-graphql-config",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-graphql-config",
@@ -687,6 +765,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-graphql-config",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-guess-js",
@@ -696,6 +775,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-guess-js",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-guess-js",
@@ -704,6 +785,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-guess-js",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-jss",
@@ -713,6 +795,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-jss",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-jss",
@@ -721,6 +805,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-jss",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-layout",
@@ -730,6 +815,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-layout",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-layout",
@@ -738,6 +825,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-layout",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-less",
@@ -747,6 +835,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-less",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-less",
@@ -755,6 +845,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-less",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-lodash",
@@ -764,6 +855,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-lodash",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-lodash",
@@ -772,6 +865,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-lodash",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-netlify-cms",
@@ -781,6 +875,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-netlify-cms",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-netlify-cms",
@@ -789,6 +885,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-netlify-cms",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-netlify",
@@ -798,6 +895,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-netlify",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-netlify",
@@ -806,6 +905,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-netlify",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-nprogress",
@@ -815,6 +915,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-nprogress",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-nprogress",
@@ -823,6 +925,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-nprogress",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-postcss",
@@ -832,6 +935,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-postcss",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-postcss",
@@ -840,6 +945,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-postcss",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-preact",
@@ -849,6 +955,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-preact",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-preact",
@@ -857,6 +965,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-preact",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-react-css-modules",
@@ -866,6 +975,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-react-css-modules",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-react-css-modules",
@@ -874,6 +985,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-react-css-modules",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-react-helmet",
@@ -883,6 +995,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-react-helmet",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-react-helmet",
@@ -891,6 +1005,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-react-helmet",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-remove-trailing-slashes",
@@ -900,6 +1015,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-remove-trailing-slashes",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-remove-trailing-slashes",
@@ -908,6 +1025,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-remove-trailing-slashes",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-sass",
@@ -917,6 +1035,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-sass",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-sass",
@@ -925,6 +1045,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-sass",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-sitemap",
@@ -934,6 +1055,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-sitemap",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-sitemap",
@@ -942,6 +1065,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-sitemap",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-styled-components",
@@ -951,6 +1075,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-styled-components",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-styled-components",
@@ -959,6 +1085,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-styled-components",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-styled-jsx",
@@ -968,6 +1095,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-styled-jsx",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-styled-jsx",
@@ -976,6 +1105,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-styled-jsx",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-styletron",
@@ -985,6 +1115,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-styletron",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-styletron",
@@ -993,6 +1125,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-styletron",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-stylus",
@@ -1002,6 +1135,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-stylus",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-stylus",
@@ -1010,6 +1145,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-stylus",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-subfont",
@@ -1019,6 +1155,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-subfont",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-subfont",
@@ -1027,6 +1165,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-subfont",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-twitter",
@@ -1036,6 +1175,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-twitter",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-twitter",
@@ -1044,6 +1185,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-twitter",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-typography",
@@ -1053,6 +1195,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-typography",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-typography",
@@ -1061,6 +1205,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-typography",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-react-router-scroll",
@@ -1070,6 +1215,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-react-router-scroll",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-react-router-scroll",
@@ -1078,6 +1225,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-react-router-scroll",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-remark-autolink-headers",
@@ -1087,6 +1235,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-remark-autolink-headers",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-remark-autolink-headers",
@@ -1095,6 +1245,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-remark-autolink-headers",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-remark-code-repls",
@@ -1104,6 +1255,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-remark-code-repls",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-remark-code-repls",
@@ -1112,6 +1265,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-remark-code-repls",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-remark-copy-linked-files",
@@ -1121,6 +1275,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-remark-copy-linked-files",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-remark-copy-linked-files",
@@ -1129,6 +1285,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-remark-copy-linked-files",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-remark-custom-blocks",
@@ -1138,6 +1295,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-remark-custom-blocks",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-remark-custom-blocks",
@@ -1146,6 +1305,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-remark-custom-blocks",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-remark-embed-snippet",
@@ -1155,6 +1315,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-remark-embed-snippet",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-remark-embed-snippet",
@@ -1163,6 +1325,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-remark-embed-snippet",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-remark-graphviz",
@@ -1172,6 +1335,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-remark-graphviz",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-remark-graphviz",
@@ -1180,6 +1345,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-remark-graphviz",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-remark-images-contentful",
@@ -1189,6 +1355,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-remark-images-contentful",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-remark-images-contentful",
@@ -1197,6 +1365,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-remark-images-contentful",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-remark-katex",
@@ -1206,6 +1375,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-remark-katex",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-remark-katex",
@@ -1214,6 +1385,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-remark-katex",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-remark-prismjs",
@@ -1223,6 +1395,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-remark-prismjs",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-remark-prismjs",
@@ -1231,6 +1405,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-remark-prismjs",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-remark-responsive-iframe",
@@ -1240,6 +1415,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-remark-responsive-iframe",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-remark-responsive-iframe",
@@ -1248,6 +1425,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-remark-responsive-iframe",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-remark-smartypants",
@@ -1257,6 +1435,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-remark-smartypants",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-remark-smartypants",
@@ -1265,6 +1445,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-remark-smartypants",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-source-faker",
@@ -1274,6 +1455,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-source-faker",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-source-faker",
@@ -1282,6 +1465,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-source-faker",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-source-graphql",
@@ -1291,6 +1475,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-source-graphql",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-source-graphql",
@@ -1299,6 +1485,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-source-graphql",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-source-hacker-news",
@@ -1308,6 +1495,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-source-hacker-news",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-source-hacker-news",
@@ -1316,6 +1505,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-source-hacker-news",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-source-lever",
@@ -1325,6 +1515,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-source-lever",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-source-lever",
@@ -1333,6 +1525,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-source-lever",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-source-medium",
@@ -1342,6 +1535,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-source-medium",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-source-medium",
@@ -1350,6 +1545,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-source-medium",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-source-mongodb",
@@ -1359,6 +1555,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-source-mongodb",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-source-mongodb",
@@ -1367,6 +1565,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-source-mongodb",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-source-npm-package-search",
@@ -1376,6 +1575,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-source-npm-package-search",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-source-npm-package-search",
@@ -1384,6 +1585,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-source-npm-package-search",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-source-wikipedia",
@@ -1393,6 +1595,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-source-wikipedia",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-source-wikipedia",
@@ -1401,6 +1605,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-source-wikipedia",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-asciidoc",
@@ -1410,6 +1615,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-asciidoc",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-asciidoc",
@@ -1418,6 +1625,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-asciidoc",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-csv",
@@ -1427,6 +1635,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-csv",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-csv",
@@ -1435,6 +1645,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-csv",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-documentationjs",
@@ -1444,6 +1655,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-documentationjs",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-documentationjs",
@@ -1452,6 +1665,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-documentationjs",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-excel",
@@ -1461,6 +1675,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-excel",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-excel",
@@ -1469,6 +1685,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-excel",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-hjson",
@@ -1478,6 +1695,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-hjson",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-hjson",
@@ -1486,6 +1705,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-hjson",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-javascript-frontmatter",
@@ -1497,6 +1717,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-javascript-frontmatter",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-javascript-frontmatter",
@@ -1507,6 +1729,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-javascript-frontmatter",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-javascript-static-exports",
@@ -1518,6 +1741,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-javascript-static-exports",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-javascript-static-exports",
@@ -1528,6 +1753,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-javascript-static-exports",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-json",
@@ -1537,6 +1763,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-json",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-json",
@@ -1545,6 +1773,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-json",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-pdf",
@@ -1554,6 +1783,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-pdf",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-pdf",
@@ -1562,6 +1793,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-pdf",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-react-docgen",
@@ -1571,6 +1803,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-react-docgen",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-react-docgen",
@@ -1579,6 +1813,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-react-docgen",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-screenshot",
@@ -1588,6 +1823,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-screenshot",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-screenshot",
@@ -1596,6 +1833,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-screenshot",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-sharp",
@@ -1605,6 +1843,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-sharp",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-sharp",
@@ -1613,6 +1853,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-sharp",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-toml",
@@ -1622,6 +1863,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-toml",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-toml",
@@ -1630,6 +1873,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-toml",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-xml",
@@ -1639,6 +1883,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-xml",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-xml",
@@ -1647,6 +1893,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-xml",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-yaml",
@@ -1656,6 +1903,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-yaml",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-yaml",
@@ -1664,6 +1913,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-yaml",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for babel-preset-gatsby",
@@ -1673,6 +1923,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for babel-preset-gatsby",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for babel-preset-gatsby",
@@ -1681,6 +1933,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for babel-preset-gatsby",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-page-utils",
@@ -1690,6 +1943,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-page-utils",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-page-utils",
@@ -1698,6 +1953,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-page-utils",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-manifest",
@@ -1707,6 +1963,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-manifest",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-manifest",
@@ -1715,6 +1973,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-manifest",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-mdx",
@@ -1724,6 +1983,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-mdx",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-mdx",
@@ -1732,6 +1993,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-mdx",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-offline",
@@ -1741,6 +2003,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-offline",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-offline",
@@ -1749,6 +2013,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-offline",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-preload-fonts",
@@ -1758,6 +2023,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-preload-fonts",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-preload-fonts",
@@ -1766,6 +2033,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-preload-fonts",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-sharp",
@@ -1775,6 +2043,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-sharp",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-sharp",
@@ -1783,6 +2053,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-sharp",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-typescript",
@@ -1792,6 +2063,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-typescript",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-typescript",
@@ -1800,6 +2073,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-typescript",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-remark-images",
@@ -1809,6 +2083,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-remark-images",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-remark-images",
@@ -1817,6 +2093,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-remark-images",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-source-filesystem",
@@ -1826,6 +2103,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-source-filesystem",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-source-filesystem",
@@ -1834,6 +2113,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-source-filesystem",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-telemetry",
@@ -1843,6 +2123,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-telemetry",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-telemetry",
@@ -1851,6 +2133,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-telemetry",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-remark",
@@ -1860,6 +2143,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-remark",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-remark",
@@ -1868,6 +2153,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-remark",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-plugin-page-creator",
@@ -1877,6 +2163,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-plugin-page-creator",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-plugin-page-creator",
@@ -1885,6 +2173,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-plugin-page-creator",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-recipes",
@@ -1894,6 +2183,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-recipes",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-recipes",
@@ -1902,6 +2193,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-recipes",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-source-contentful",
@@ -1911,6 +2203,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-source-contentful",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-source-contentful",
@@ -1919,6 +2213,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-source-contentful",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-source-drupal",
@@ -1928,6 +2223,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-source-drupal",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-source-drupal",
@@ -1936,6 +2233,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-source-drupal",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-source-shopify",
@@ -1945,6 +2243,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-source-shopify",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-source-shopify",
@@ -1953,6 +2253,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-source-shopify",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-source-wordpress",
@@ -1962,6 +2263,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-source-wordpress",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-source-wordpress",
@@ -1970,6 +2273,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-source-wordpress",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-transformer-sqip",
@@ -1979,6 +2283,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-transformer-sqip",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-transformer-sqip",
@@ -1987,6 +2293,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-transformer-sqip",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-cli",
@@ -1996,6 +2303,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-cli",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-cli",
@@ -2004,6 +2313,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-cli",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby",
@@ -2013,6 +2323,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby",
@@ -2021,6 +2333,7 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby",
+      excludePackageNames: ["cross-env"],
     },
     {
       groupName: "minor and patch for gatsby-admin",
@@ -2030,6 +2343,8 @@
       // force pr title to be the plugin name
       commitMessageTopic: "minor and patch for gatsby-admin",
       commitMessageExtra: "",
+      excludePackageNames: ["cross-env", "lodash", "lodash-es"],
+      excludePackagePatterns: ["^lodash/", "^@babel/"],
     },
     {
       groupName: "major for gatsby-admin",
@@ -2038,16 +2353,25 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-admin",
+      excludePackageNames: ["cross-env"],
+    },
+    {
+      groupName: "cross-env",
+      paths: ["package.json", "packages/**"],
+      packageNames: ["cross-env"],
+      dependencyDashboardApproval: false,
     },
     {
       groupName: "babel monorepo",
       paths: ["package.json", "packages/**"],
       sourceUrlPrefixes: ["https://github.com/babel/babel"],
+      dependencyDashboardApproval: false,
     },
     {
       groupName: "lodash monorepo",
       paths: ["package.json", "packages/**"],
       sourceUrlPrefixes: ["https://github.com/lodash"],
+      dependencyDashboardApproval: false,
     },
   ],
   vulnerabilityAlerts: {
