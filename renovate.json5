@@ -173,6 +173,10 @@
       dependencyDashboardApproval: false,
     },
     {
+      groupName: "babel monorepo",
+      sourceUrlPrefixes: ["https://github.com/babel/babel"],
+    },
+    {
       groupName: "minor and patch for babel-preset-gatsby-package",
       paths: ["packages/babel-preset-gatsby-package/package.json"],
       groupSlug: "babel-preset-gatsby-package",
@@ -2032,10 +2036,6 @@
       updateTypes: ["major"],
       // force pr title to be the plugin name
       commitMessageSuffix: "for gatsby-admin",
-    },
-    {
-      groupName: "babel monorepo",
-      sourceUrlPrefixes: ["https://github.com/babel/babel"],
     },
     {
       groupName: "lodash monorepo",
